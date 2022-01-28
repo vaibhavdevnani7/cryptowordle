@@ -29,7 +29,7 @@ interface GameProps {
   keyboardLayout: string;
 }
 
-const targets = targetList.slice(0, targetList.indexOf("murky") + 1); // Words no rarer than this one
+const targets = targetList.slice(0, targetList.indexOf("alloxan") + 1); // Words no rarer than this one
 const minWordLength = 4;
 const maxWordLength = 11;
 

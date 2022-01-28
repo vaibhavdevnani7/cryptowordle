@@ -92,17 +92,7 @@ function App() {
           visibility: page === "game" ? "visible" : "hidden",
         }}
       >
-        <a
-          href="#"
-          onClick={() =>
-            (document.location = seed
-              ? "?"
-              : "?seed=" +
-                new Date().toISOString().replace(/-/g, "").slice(0, 8))
-          }
-        >
-          {seed ? "Random" : "Today's"}
-        </a>
+        
       </div>
       {page === "about" && <About />}
       {page === "settings" && (
