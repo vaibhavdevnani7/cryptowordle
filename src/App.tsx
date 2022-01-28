@@ -3,6 +3,9 @@ import { maxGuesses, seed } from "./util";
 import Game from "./Game";
 import { useEffect, useState } from "react";
 import { About } from "./About";
+ // Tell webpack this JS file uses this image
+
+
 
 function useSetting<T>(
   key: string,
@@ -63,17 +66,7 @@ function App() {
 
   return (
     <div className={"App-container" + (colorBlind ? " color-blind" : "")}>
-      <h1>
-        <span
-          style={{
-            color: difficulty > 0 ? "#e66" : "inherit",
-            fontStyle: difficulty > 1 ? "italic" : "inherit",
-          }}
-        >
-          hell
-        </span>
-        o wordl
-      </h1>
+      
       <div className="top-right">
         {page !== "game" ? (
           link("❌", "Close", "game")

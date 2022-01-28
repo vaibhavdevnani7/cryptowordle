@@ -29,9 +29,9 @@ interface GameProps {
   keyboardLayout: string;
 }
 
-const targets = targetList.slice(0, targetList.indexOf("alloxan") + 1); // Words no rarer than this one
+const targets = targetList.slice(0, targetList.indexOf("metaverse") + 1); // Words no rarer than this one
 const minWordLength = 4;
-const maxWordLength = 11;
+const maxWordLength = 10;
 
 function randomTarget(wordLength: number): string {
   const eligible = targets.filter((word) => word.length === wordLength);

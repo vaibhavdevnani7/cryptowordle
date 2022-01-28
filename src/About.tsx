@@ -6,13 +6,14 @@ export function About() {
   return (
     <div className="App-about">
       <p>
-        <i>hello wordl</i> is a remake of the word game{" "}
+        <i>Hordle</i> is a remake of the word game{" "}
         <a href="https://www.powerlanguage.co.uk/wordle/">
           <i>Wordle</i>
         </a>{" "}
-        by <a href="https://twitter.com/powerlanguish">powerlanguage</a>, which
-        I think is based on the TV show <i>Lingo</i>.
+        by <a href="https://twitter.com/powerlanguish">powerlanguage</a>.
+
       </p>
+      <p>You have to guess a crypto related word here. You can take help from the header ; )</p>
       <p>
         You get {maxGuesses} tries to guess a target word.
         <br />
@@ -70,16 +71,17 @@ export function About() {
         ]}
         annotation={"Got it!"}
       />
+      
       <p>
-        Report issues{" "}
-        <a href="https://github.com/lynn/hello-wordl/issues">here</a>, or tweet{" "}
-        <a href="https://twitter.com/chordbug">@chordbug</a>.
-      </p>
-      <p>
-        This game will be free and ad-free forever,
+        This game is made by <a href="https://risingstars.co">Rising Stars</a>, visit us on our website.
         <br />
-        but you can <a href="https://ko-fi.com/chordbug">buy me a coffee</a> if
+        <br />
+        This clone was originally made by lynn, code avaialable on <a href="https://github.com/lynn/hello-wordl">his Github, </a>
+        you can <a href="https://ko-fi.com/chordbug">buy him a coffee</a> if
         you'd like.
+        <br />
+        <br />
+        This one's code is available on <a href="https://github.com/vaibhavdevnani7/cryptowordle">vaibhavdevnani7's Github.</a>
       </p>
     </div>
   );
